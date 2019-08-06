@@ -8,13 +8,16 @@ Instalei o Bootstrap utlizando o Npm e logo em seguida o Jquery e Popper.js.
 Não estou utilizando BootstrapCDN para compilar o css. 
 Instalei o Sass, como estou no Windows precisei instalar o Ruby antes
 e na instalação do Sass tive problemas como a SDK Dart do sass que não queria funcionar então
-instalei via Chocolatey a SDK do DART:
+instalei via Chocolatey a SDK do DART.
+
 To use Chocolatey to install a stable release of the Dart SDK, run this command:
 
  choco install dart-sdk
+ 
 To install a dev release, run this command:
 
  choco install dart-sdk --pre
+ 
 To upgrade the Dart SDK, run this command (add --pre to upgrade the dev release):
 
  choco upgrade dart-sdk
